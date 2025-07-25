@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>탄소중립 일일 실천</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌿 오늘의 탄소중립 실천</h1>
+    <p id="today-date"></p>
+  </header>
+
+  <main>
+    <section class="checklist">
+      <h2>체크리스트</h2>
+      <ul>
+        <li><input type="checkbox" /> 대중교통 이용</li>
+        <li><input type="checkbox" /> 플라스틱 사용 줄이기</li>
+        <li><input type="checkbox" /> 텀블러 사용</li>
+        <li><input type="checkbox" /> 음식물 쓰레기 줄이기</li>
+      </ul>
+    </section>
+
+    <section class="upload">
+      <h2>실천 인증 업로드 📸</h2>
+      <input type="file" accept="image/*" />
+    </section>
+
+    <section class="footprint">
+      <h2>탄소 감축량 입력</h2>
+      <input type="number" placeholder="예: 1.5kg CO₂" /> kg 감축
+    </section>
+
+    <section class="link">
+      <a href="weekly-report.html">📊 주간 리포트 보기</a>
+      <a href="about.html">❓ 탄소중립이란?</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

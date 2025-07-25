@@ -1,0 +1,1 @@
+document.getElementById('today-date').innerText = new Date().toLocaleDateString('ko-KR');
